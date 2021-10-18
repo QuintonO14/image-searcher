@@ -1,0 +1,19 @@
+{
+    "name" : "Image Searcher",
+    "description" : "Reverse photo search any image at the click of a button",
+    "version" :"1.0",
+    "manifest_version": 2,
+    "icons" : {
+        "16" : "/images/favicon16x16.png",
+        "48" : "/images/favicon32x32.png",
+        "128" : "/images/favicon128x128.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent" : false
+    },
+    "permissions" : [
+        "storage",
+        "contextMenus"
+    ]
+}
